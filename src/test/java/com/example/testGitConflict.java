@@ -7,7 +7,7 @@ public class testGitConflict {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertFalse(3 < 2);
     }
 
     @Test
