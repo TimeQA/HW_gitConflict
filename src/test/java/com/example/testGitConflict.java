@@ -14,4 +14,9 @@ public class testGitConflict {
     void  secongTest() {
         Assertions.assertTrue(3 > 0);
     }
+
+    @Test
+    void thirdTest() {
+        Assertions.assertTrue(99 > 12);
+    }
 }
