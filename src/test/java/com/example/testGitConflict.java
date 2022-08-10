@@ -7,16 +7,16 @@ public class testGitConflict {
 
     @Test
     void firstTest() {
-        Assertions.assertFalse(3 < 2);
+        Assertions.assertFalse(3 <= 2);
     }
 
     @Test
     void  secongTest() {
-        Assertions.assertTrue(3 > 0);
+        Assertions.assertTrue(3 >= 0);
     }
 
     @Test
     void thirdTest() {
-        Assertions.assertTrue(99 > 12);
+        Assertions.assertTrue(99 >= 12);
     }
 }
