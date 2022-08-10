@@ -9,4 +9,9 @@ public class testGitConflict {
     void firstTest() {
         Assertions.assertTrue(3 > 2);
     }
+
+    @Test
+    void  secongTest() {
+        Assertions.assertTrue(3 > 0);
+    }
 }
